@@ -1,0 +1,16 @@
+.products-block {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  &__item {
+    width: 30%;
+    margin: 10px 15px 25px 15px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+}
+
+.main-heading {
+  text-align: center;
+}
